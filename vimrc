@@ -30,6 +30,7 @@ colorscheme solarized
 set splitbelow
 set splitright
 
+set laststatus=2 " display status line always 
 set incsearch " enable incremental search
 set hlsearch " enable highlight search term
 
