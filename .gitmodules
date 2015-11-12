@@ -6,4 +6,7 @@
 	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
-	url = https://github.com/leshill/vim-json.git
+    url = https://github.com/leshill/vim-json.git
+[submodule "bundle/vim-cfmt"]
+    path = bundle/vim-cfmt
+    url = https://github.com/crosbymichael/vim-cfmt.git 
