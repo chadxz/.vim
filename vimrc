@@ -46,3 +46,6 @@ nnoremap <C-H> <C-W><C-H>
 
 " dont save .netrwhist history
 let g:netrw_dirhistmax=0
+
+" show column where text should be wrapped
+set colorcolumn=+1  
