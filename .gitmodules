@@ -10,3 +10,6 @@
 [submodule "bundle/vim-cfmt"]
     path = bundle/vim-cfmt
     url = https://github.com/crosbymichael/vim-cfmt.git 
+[submodule "bundle/editorconfig-vim"]
+    path = bundle/editorconfig-vim
+    url = https://github.com/crosbymichael/vim-cfmt.git  
