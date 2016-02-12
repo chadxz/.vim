@@ -30,7 +30,7 @@ colorscheme solarized
 set splitbelow
 set splitright
 
-set laststatus=2 " display status line always 
+set laststatus=2 " display status line always
 set incsearch " enable incremental search
 set hlsearch " enable highlight search term
 
@@ -48,4 +48,8 @@ nnoremap <C-H> <C-W><C-H>
 let g:netrw_dirhistmax=0
 
 " show column where text should be wrapped
-set colorcolumn=+1  
+set colorcolumn=+1
+
+" workaround issue where vim-airline causes `git commit` to fail
+" https://github.com/vim-airline/vim-airline/issues/79
+let g:airline_theme='dark'
