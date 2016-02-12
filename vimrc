@@ -25,6 +25,7 @@ set background=dark
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 colorscheme solarized
+let g:airline_theme='solarized'
 
 " more natural splitting
 set splitbelow
@@ -49,7 +50,3 @@ let g:netrw_dirhistmax=0
 
 " show column where text should be wrapped
 set colorcolumn=+1
-
-" workaround issue where vim-airline causes `git commit` to fail
-" https://github.com/vim-airline/vim-airline/issues/79
-let g:airline_theme='dark'
