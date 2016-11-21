@@ -50,3 +50,6 @@ let g:netrw_dirhistmax=0
 
 " show column where text should be wrapped
 set colorcolumn=+1
+
+" trim trailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e
