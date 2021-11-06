@@ -41,10 +41,6 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" Asterisk cfmt/gnu-indent rules
-" let g:cfmt_style = '-i4 -ts4 -br -brs -cdw -lp -ce -nbfda -npcs -nprs -npsl -nbbo -saf -sai -saw -cs -l90'
-" autocmd BufWritePre *.c,*.h Cfmt
-
 " dont save .netrwhist history
 let g:netrw_dirhistmax=0
 
